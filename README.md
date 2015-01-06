@@ -4,14 +4,14 @@ inplace.js
 a very light jQuery plugin for inplace editing title by Mojaba kianifar
 
 
-Features : 
+## Features : 
 
 * oncomplete() method for ajax call 
 * very light plugin (4kb)
 * simple usage
 
 
-Usage :
+## Usage :
 
 create Dom element : 
 
@@ -24,5 +24,20 @@ include inplace.css for button style :
 
     <link rel="stylesheet" href="css/inplace.css">
     
+and then use plugin 
 
+	<script>
+		$("h2").inplace ()
+	</script>
+	
+### you can attach oncomplete method for ajax save data in database lije this :
+
+	<script>
+		$("h2").inplace ({
+			oncomplete : function (){
+				//ajax here 
+			}
+		})
+	</script>
+	
 or view demo.html
