@@ -2,7 +2,7 @@
 	/**********
 	* Name : Inplace Title Plugin 
 	* Author : Mojtaba Kianifar
-	* Version : 1.0
+	* Version : 1.00
 	**********/
 	
 (function($, window, document, undefined){
