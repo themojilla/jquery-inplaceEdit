@@ -30,7 +30,7 @@ and then use plugin
 		$("h2").inplace ()
 	</script>
 	
-### you can attach oncomplete method for ajax save data in database lije this :
+##### you can attach oncomplete method for ajax save data in database like this :
 
 	<script>
 		$("h2").inplace ({
@@ -40,4 +40,4 @@ and then use plugin
 		})
 	</script>
 	
-or view demo.html
+Dont Forget to view demo.html :)
