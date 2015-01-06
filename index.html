@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Inplace.js : a very light jQuery plugin for inplace title and text ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Inplace.js</title>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Inplace.js by mojim</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/mojim/inplace.js">View on GitHub</a>
-
-          <h1 id="project_title">Inplace.js</h1>
-          <h2 id="project_tagline">a very light jQuery plugin for inplace title and text </h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/mojim/inplace.js/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/mojim/inplace.js/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+        <header>
+          <h1>Inplace.js</h1>
+          <h2>a very light jQuery plugin for inplace title and text </h2>
         </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="inplacejs" class="anchor" href="#inplacejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>inplace.js</h1>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/mojim/inplace.js/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/mojim/inplace.js/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/mojim/inplace.js" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-<h1></h1>
+        <hr>
 
-<p>a very light jQuery plugin for inplace editing title by Mojaba kianifar</p>
+        <section id="main_content">
+          <p>a very light jQuery plugin for inplace editing title by Mojaba kianifar</p>
+
+<p>version: 1.0</p>
 
 <h2>
-<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+<a id="features-" class="anchor" href="#features-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features :</h2>
 
 <ul>
 <li>oncomplete() method for ajax call </li>
@@ -48,7 +45,7 @@
 </ul>
 
 <h2>
-<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage-" class="anchor" href="#usage-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage :</h2>
 
 <p>create Dom element : </p>
 
@@ -63,25 +60,44 @@
 <pre><code>&lt;link rel="stylesheet" href="css/inplace.css"&gt;
 </code></pre>
 
-<p>or view <strong>demo.html</strong> in zip file</p>
+<p>and then use plugin :</p>
+
+<pre><code>&lt;script&gt;
+    $("h2").inplace ()
+&lt;/script&gt;
+</code></pre>
+
+<h5>
+<a id="you-can-attach-oncomplete-method-for-ajax-save-data-in-database-like-this-" class="anchor" href="#you-can-attach-oncomplete-method-for-ajax-save-data-in-database-like-this-" aria-hidden="true"><span class="octicon octicon-link"></span></a>you can attach oncomplete method for ajax save data in database like this :</h5>
+
+<pre><code>&lt;script&gt;
+    $("h2").inplace ({
+        oncomplete : function (){
+            //ajax here 
+        }
+    })
+&lt;/script&gt;
+</code></pre>
+
+<p>Dont Forget to view demo.html :)</p>
 
 <h2>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>contact</h2>
+<a id="connect-" class="anchor" href="#connect-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Connect :</h2>
 
-<p><a href="http://webmags.ir">http://webmags.ir</a>
-or <a href="mailto:mojtaba.bank@gmail.com">mojtaba.bank@gmail.com</a></p>
-      </section>
+<p>facebook : <a href="https://www.facebook.com/mojtaba.kianyfar">https://www.facebook.com/mojtaba.kianyfar</a></p>
+
+<p>gmail : <a href="mailto:mojtaba.bank@gmail.com">mojtaba.bank@gmail.com</a></p>
+
+<p>website : <a href="http://webmags.ir">http://webmags.ir</a></p>
+        </section>
+
+        <footer>
+          Inplace.js is maintained by <a href="https://github.com/mojim">mojim</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Inplace.js maintained by <a href="https://github.com/mojim">mojim</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
   </body>
 </html>
