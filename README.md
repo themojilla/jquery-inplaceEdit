@@ -1,7 +1,9 @@
 inplace.js
 ==========
 
-a very light jQuery plugin for inplace editing title by Mojaba kianifar
+a very light jQuery plugin for inplace editing title by Mojtaba kianifar
+
+version: 1.0
 
 
 ## Features : 
@@ -24,7 +26,7 @@ include inplace.css for button style :
 
     <link rel="stylesheet" href="css/inplace.css">
     
-and then use plugin 
+and then use plugin :
 
 	<script>
 		$("h2").inplace ()
@@ -41,3 +43,12 @@ and then use plugin
 	</script>
 	
 Dont Forget to view demo.html :)
+
+## Connect :
+
+facebook : https://www.facebook.com/mojtaba.kianyfar
+
+gmail : mojtaba.bank@gmail.com
+
+website : http://webmags.ir
+
