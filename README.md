@@ -46,9 +46,7 @@ Dont Forget to view demo.html :)
 
 ## Connect :
 
+website : http://mojtabakiani.ir
 facebook : https://www.facebook.com/mojtaba.kianyfar
 
-gmail : mojtaba.bank@gmail.com
-
-website : http://webmags.ir
 
