@@ -1,4 +1,4 @@
-inplace.js
+jquery-inplaceEdit
 ==========
 
 a very light jQuery plugin for inplace editing title by Mojtaba kianifar
